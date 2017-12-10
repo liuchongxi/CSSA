@@ -1,0 +1,152 @@
+/* YOUR CUSTOM STYLES */
+
+html,body,.view {
+    height: 100%;
+}
+
+
+/* Navigation*/
+.navbar {
+    background-color: transparent;
+}
+
+.scrolling-navbar {
+    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+
+#banner-logo{
+    width:4.4rem;
+    height:4rem;
+    margin-right:1rem;
+}
+.navbar-nav{
+	margin-right: 1.5em;
+}
+.nav-flex-icons{
+	/*margin-left: 1.5em;*/
+}
+.top-nav-collapse {
+	/*下滑时的banner*/
+    background-color: black;
+    background:rgba(0, 0, 0, 0.4);
+}
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #1C2331;
+        background:rgba(0, 0, 0, 0.4);
+    }
+}
+.navbar .btn-group .dropdown-menu a:hover {
+    color: #000 !important;
+}
+.navbar .btn-group .dropdown-menu a:active {
+    color: #fff !important;
+}
+/*Call to action*/
+
+
+
+/*home-welcome*/
+.flex-center {
+    color: #fff;
+}
+
+.home-welcome {
+    background: url(../img/home_intro1.jpeg)no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+ }
+
+.join-member-btn{
+	background: #8E0E00;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	border-radius: 5%;
+}
+
+.join-us-btn{
+	background: #8E0E00;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	border-radius: 5%;
+}
+
+/*home-about-us*/
+.home-main-about{
+	margin-bottom: 7em;
+
+}
+
+/*home-event*/
+.home-main-event-wrapper{
+/*	background: url("https://mdbootstrap.com/img/Photos/Others/img%20(50).jpg")no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;*/
+background: #304352;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #d7d2cc, #304352);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/*background-color:rgba(3, 169, 244, 0.7);*/
+ }
+ .home-main-event{
+ 	padding-bottom: 2em;
+ }
+
+ .event-title{
+ 	color:black;
+ }
+/*logo*/
+.short-logo{
+    padding-top: 25%;
+}
+
+ /*footer*/
+footer.home-footer {
+ 	color:white;
+	background: #000000;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-top: -1px;
+}
+.footer-link a{
+	color:white;
+}
+footer hr{
+	display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid white;
+    margin: 1em 0;
+    padding: 0; 
+}
+#QR{
+    height:75%;
+    width: 75%;
+    margin-left:15%;
+}
+
+
+/* Carousel*/
+
+.carousel {
+    height: 55%;
+}
+@media (max-width: 776px) {
+    .carousel {
+        height: 100%;
+    }
+}
+
+.carousel-item, .active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
