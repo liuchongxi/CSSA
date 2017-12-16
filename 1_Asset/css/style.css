@@ -1,11 +1,11 @@
-/* YOUR CUSTOM STYLES */
+/* CUSTOM STYLES */
 
 html,body,.view {
     height: 100%;
 }
 
 
-/* Navigation*/
+/* Navigation */
 .navbar {
     background-color: transparent;
 }
@@ -46,9 +46,26 @@ html,body,.view {
 }
 /*Call to action*/
 
+/* Header */
+
+.header{
+    height: 50%;
+background: #780206;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #780206,  );  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #090909, #780206, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.header h1{
+    color:white;
+    margin-top:2em;
+}
+.header p{
+    color:white;
+}
 
 
-/*home-welcome*/
+
+/* home:welcome */
 .flex-center {
     color: #fff;
 }
@@ -75,13 +92,13 @@ html,body,.view {
 	border-radius: 5%;
 }
 
-/*home-about-us*/
+/*home:about-us*/
 .home-main-about{
 	margin-bottom: 7em;
 
 }
 
-/*home-event*/
+/*home:event*/
 .home-main-event-wrapper{
 /*	background: url("https://mdbootstrap.com/img/Photos/Others/img%20(50).jpg")no-repeat center center;
     -webkit-background-size: cover;
@@ -105,7 +122,7 @@ background: linear-gradient(to right, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, F
     padding-top: 25%;
 }
 
- /*footer*/
+ /* footer */
 footer.home-footer {
  	color:white;
 	background: #000000;  /* fallback for old browsers */
@@ -131,7 +148,7 @@ footer hr{
 }
 
 
-/* Carousel*/
+/* Carousel */
 
 .carousel {
     height: 55%;
