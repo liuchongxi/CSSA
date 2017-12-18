@@ -22,11 +22,13 @@ html,body,.view {
     margin-right:1rem;
 }
 .navbar-nav{
-	margin-right: 1.5em;
+    margin-right: 1.5em;
+    
 }
 .nav-flex-icons{
 	/*margin-left: 1.5em;*/
 }
+
 .top-nav-collapse {
 	/*下滑时的banner*/
     background-color: black;
@@ -125,7 +127,7 @@ footer.home-footer {
 	background: #000000;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to bottom, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to bottom, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    margin-top: -1px;
+    margin-top: -20px;
 }
 .footer-link a{
 	color:white;

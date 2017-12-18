@@ -6,7 +6,7 @@ $(window).load(function() {
 	// PORTFOLIO SLIDES //
 	$('#slides').slides({
 		preload: true,
-		preloadImage: '1_Asset/img/Event/slides/nivo-preloader.gif',
+		preloadImage: '../img/Event/slides/nivo-preloader.gif',
 		play: 0,
 		pause: 0,
 		effect: 'fade',
@@ -26,7 +26,7 @@ var api;
 jQuery(document).ready(function() {
 	api =  jQuery('.fullwidthbanner').revolution(
 		{
-			delay:9000,
+			delay:4000,
 			startheight:450,
 			startwidth:1120,
 

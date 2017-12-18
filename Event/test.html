@@ -25,7 +25,6 @@
 
     <link rel="stylesheet" type="text/css" href="../1_Asset/css/eventStyle.css" media="screen" />
     <style>
-
         #testP{
             position: absolute; 
             margin: auto; 
@@ -33,75 +32,103 @@
         a{
             color: red;
         }
+        .navbar {
+            background-color: transparent;
+            background:rgba(0, 0, 0, 1);
+            border-radius: 0; 
+        }
+        .top-nav-collapse {
+            /*下滑时的banner*/
+            background-color: black;
+            background:rgba(0, 0, 0, 0.4);
+        }
+        .detailInfo{
+            /* position: absolute; */
+            /* margin-left: 198px;
+            margin-top: 100px; */
+            /* position: absolute; */
+            width: 100%;
+            margin-top: 50%;
+            margin-left: 50%;
+            padding-left: 50%;
+            /* padding-top: 10%; */
+            
+            /* text-align: center; */
+            /* margin-right: -50%; */
+            transform: translate(-50%, -50%)
+        }
     </style>
 </head>
 
 <body>
-
+<div>
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
-        <div class="container">
-            <a class="navbar-brand" href="../index.html"><img id="banner-logo" src="../1_Asset/img/cssa_logo.png" alt="SFU CSSA">中国学生学者联合会</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="../index.html">主页</a>
-                    </li>
-                    <li class="nav-item btn-group">
-                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">新生指南</a>
-                        <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="../新生指南/校园简介.html">校园简介</a>
-                            <a class="dropdown-item" href="../新生指南/新生手册.html">新生手册</a>
-                            <a class="dropdown-item" href="../新生指南/会员福利.html">会员福利</a>
-                        </div>
-                    </li>
-                    <li class="nav-item btn-group">
-                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >活动</a>
-                        <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="社团活动.html">社团活动</a>
-                            <a class="dropdown-item" href="义工活动.html">义工活动</a>
-                            <!-- <a class="dropdown-item" href="#">Something else here</a> -->
-                        </div>
-                    </li>
-                    <li class="nav-item btn-group">
-                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">关于我们</a>
-                        <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="../关于我们/社团简介.html">社团简介</a>
-                            <a class="dropdown-item" href="../关于我们/部门简介.html">部门简介</a>
-                            <a class="dropdown-item" href="../关于我们/合作商家/html">合作商家</a>
-                        </div>
-                    </li>
-                </ul>
-                <ul class="navbar-nav nav-flex-icons">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fa fa-facebook"></i></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fa fa-weibo"></i></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fa fa-weixin"></i></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fa fa-instagram"></i></a>
-                    </li>
-                </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar" id='navBar'>
+            <div class="container">
+                <a class="navbar-brand" href="../index.html"><img id="banner-logo" src="../1_Asset/img/cssa_logo.png" alt="SFU CSSA">中国学生学者联合会</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">主页</a>
+                        </li>
+                        <li class="nav-item btn-group">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">新生指南</a>
+                            <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="../新生指南/校园简介.html">校园简介</a>
+                                <a class="dropdown-item" href="../新生指南/新生手册.html">新生手册</a>
+                                <a class="dropdown-item" href="../新生指南/会员福利.html">会员福利</a>
+                            </div>
+                        </li>
+                        <li class="nav-item btn-group">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >活动</a>
+                            <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="社团活动.html">社团活动</a>
+                                <a class="dropdown-item" href="义工活动.html">义工活动</a>
+                                <!-- <a class="dropdown-item" href="#">Something else here</a> -->
+                            </div>
+                        </li>
+                        <li class="nav-item btn-group">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">关于我们</a>
+                            <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="../关于我们/社团简介.html">社团简介</a>
+                                <a class="dropdown-item" href="../关于我们/部门简介.html">部门简介</a>
+                                <a class="dropdown-item" href="../关于我们/合作商家/html">合作商家</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav nav-flex-icons">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa fa-weibo"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa fa-weixin"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-    <!--/.Navbar-->
+        </nav>
+        <!--/.Navbar-->
+
+</div>
+    
 
 
-    <div id="wrapper" style="margin-top:98px;">
+    <div id="wrapper" >
         <div class="fullwidthbanner-container">
             <div class="fullwidthbanner">
                 <ul>
-                    <li data-transition="3dcurtain-horizontal" data-slotamount="15" data-masterspeed="300">
-                        <img src="../1_Asset/img/Event/slides/slide3.jpg" alt="" />
-                        <p id="testP">dfgsdfsdfsdhsdfgasdgfhsdfga</p>
+                    <li data-transition="3dcurtain-horizontal" data-slotamount="15" data-masterspeed="300" >                        
+                        <img src="../1_Asset/img/Event/slides/slide3.jpg" alt="" id="image1"/>
+                        <p class="detailInfo">这个没有用data-link</p>
                     </li>
                     <li data-transition="3dcurtain-vertical" data-slotamount="15" data-masterspeed="300" data-link="#">
                         <img src="../1_Asset/img/Event/slides/slide5.jpg" alt="" />
@@ -109,10 +136,10 @@
                     <li data-transition="papercut" data-slotamount="15" data-masterspeed="300" data-link="#">
                         <img src="../1_Asset/img/Event/slides/slide2.jpg" alt="" />
                     </li>
-                    <li data-transition="turnoff" data-slotamount="15" data-masterspeed="300">
+                    <li data-transition="turnoff" data-slotamount="15" data-masterspeed="300" data-link="#">
                         <img src="../1_Asset/img/Event/slides/slide1.jpg" alt="" />
                     </li>	
-                    <li data-transition="flyin" data-slotamount="15" data-masterspeed="300">
+                    <li data-transition="flyin" data-slotamount="15" data-masterspeed="300" data-link="#">
                         <img src="../1_Asset/img/Event/slides/slide6.jpg" alt="" />	 
                     </li>					
                 </ul>
@@ -120,53 +147,55 @@
         </div>
     </div>
 
-
-
-    <footer class="home-footer">
-        <hr>
-        <div class="container mt-5 mb-5">
-            <div class="row">
-                <div class="col-sm-3">
-                    <h3><img src="../img/cssa_logo.png" alt="cssa" class="d-inline-block pb-3 pr-3" id="footer-logo"> CSSA</h3>
-                    <address>8888 University Dr, Burnaby, BC V5A 1S6 CANADA</address>
-                </div>
-                <div class="col-sm-3 pt-3">
-                    <h3>网站导引</h3>
+    <div>
+            <footer class="home-footer">
                     <hr>
-                    <ul class="footer-link">
-                        <li><a href="">主页</a></li>
-                        <li><a href="">新生指南</a></li>
-                        <li><a href="">活动</a></li>
-                        <li><a href="">关于我们</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-3 pt-3">
-                    <h3>活动</h3>
-                    <hr>
-                    <ul class="footer-link">
-                        <li><a href="">活动1</a></li>
-                        <li><a href="">活动2</a></li>
-                        <li><a href="">活动3</a></li>
-                        <li><a href="">活动4</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-3 pt-3">
-                    <h4>二维码关注</h4>
-                    <hr>
-                    <img src="../img/cssa_logo.png" alt="cssa" class="d-inline-block pr-3">
-                    <img src="../img/cssa_logo.png" alt="cssa" class="d-inline-block">
-                </div>
-            </div>
-        </div>
+                    <div class="container mt-5 mb-5">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <h3><img src="../1_Asset/img/cssa_logo.png" alt="cssa" class="d-inline-block pb-3 pr-3" id="footer-logo"> CSSA</h3>
+                                <address>8888 University Dr, Burnaby, BC V5A 1S6 CANADA</address>
+                            </div>
+                            <div class="col-sm-3 pt-3">
+                                <h3>网站导引</h3>
+                                <hr>
+                                <ul class="footer-link">
+                                    <li><a href="">主页</a></li>
+                                    <li><a href="">新生指南</a></li>
+                                    <li><a href="">活动</a></li>
+                                    <li><a href="">关于我们</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-3 pt-3">
+                                <h3>活动</h3>
+                                <hr>
+                                <ul class="footer-link">
+                                    <li><a href="">活动1</a></li>
+                                    <li><a href="">活动2</a></li>
+                                    <li><a href="">活动3</a></li>
+                                    <li><a href="">活动4</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-3 pt-3">
+                                <h4>二维码关注</h4>
+                                <hr>
+                                <img src="../1_Asset/img/cssa_logo.png" alt="cssa" class="d-inline-block pr-3">
+                                <img src="../1_Asset/img/cssa_logo.png" alt="cssa" class="d-inline-block">
+                            </div>
+                        </div>
+                    </div>
+            
+            
+                    <div class="copyright row hm-black-light">
+                        <hr>
+                        <div class=" full-bg-img col">
+                            <p class="text-center pt-2">© 2017, SFU CSSA. All Rights Reserved.</p>
+                        </div>
+                    </div>
+                </footer>
 
-
-        <div class="copyright row hm-black-light">
-            <hr>
-            <div class=" full-bg-img col">
-                <p class="text-center pt-2">© 2017, SFU CSSA. All Rights Reserved.</p>
-            </div>
-        </div>
-    </footer>
+    </div>
+    
     <!--/.Footer-->
 
 
@@ -189,16 +218,20 @@
 
     <script type="text/javascript" src="../1_Asset/js/banner.js"></script>
 
-    <script type="text/javascript" src="../1_Asset/js/quantize.js"></script>
-
-    <script type="text/javascript" src="../1_Asset/js/color-thief.js"></script>
-    
 
     
 
 
     <script>
         new WOW().init();
+        
+
+        document.getElementById("image1").onclick = function (){
+            window.location="http://google.com";
+        }
+
+        
+        
     </script>
 
 </body>
