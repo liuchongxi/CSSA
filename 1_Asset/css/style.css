@@ -50,9 +50,12 @@ html,body,.view {
 
 .header{
     height: 40%;
-    background: #780206;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #780206,  );  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #780206, #222222); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/*    background: #780206;   fallback for old browsers */
+/*    background: -webkit-linear-gradient(to top, #780206,  );   Chrome 10-25, Safari 5.1-6 */
+/*    background: linear-gradient(to top, #780206, #222222);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: url(../img/background/background1.jpg);
+    background-position: center;
+    
 }
 .header h1{
     color:white;
