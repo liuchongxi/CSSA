@@ -6,7 +6,7 @@ $(window).load(function() {
 	// PORTFOLIO SLIDES //
 	$('#slides').slides({
 		preload: true,
-		preloadImage: '../1_Asset/img/Event/slides/nivo-preloader.gif',
+		preloadImage: '1_Asset/img/Event/slides/nivo-preloader.gif',
 		play: 0,
 		pause: 0,
 		effect: 'fade',

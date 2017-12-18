@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 body {
-	font: 12px/20px Open Sans, Helvetica, Arial, sans-serif;
+	/* font: 12px/20px Open Sans, Helvetica, Arial, sans-serif; */
 	background:#fff;
 	margin:0;
 	padding:0;
@@ -10,7 +10,8 @@ body {
 
 #wrapper {
 	background:#fff;
-	position:relative;
+    position:relative;
+    
 }
 
 a {
@@ -34,13 +35,13 @@ a:hover {
 	width:100% !important;
 	position:relative;
 	padding:0;
-	max-height:450px !important;
+	max-height:100% !important;
 	overflow:hidden;
 }
 
 .fullwidthbanner-container .fullwidthabnner	{
 	width:100% !important;
-	max-height:450px !important;
+	max-height:100% !important;
 	position:relative;
 }
 
@@ -95,7 +96,7 @@ a:hover {
 	z-index: 100;
 	cursor: pointer;
 	position: relative;
-	background: #393939 url(../1_Asset/img/Event/slides/slider-left-arrow.png) no-Repeat;
+	background: #393939 url(../img/Event/slider-left-arrow.png) no-Repeat;
 	width: 42px;
 	height: 43px;
 	margin-left: 0px;
@@ -118,7 +119,7 @@ a:hover {
     z-index: 100;
     cursor: pointer;
     position: relative;
-    background: #393939 url(../1_Asset/img/Event/slides/slider-right-arrow.png) no-Repeat 0 0;
+    background: #393939 url(../img/Event/slider-right-arrow.png) no-Repeat 0 0;
     width: 42px;
     height: 43px;
     margin-left: 0;
