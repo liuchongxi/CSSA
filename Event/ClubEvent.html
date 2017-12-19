@@ -2,7 +2,6 @@
 <html lang="zh-cmn-Hans en">
 
 <head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -19,48 +18,50 @@
 
     <!-- Material Design Bootstrap -->
     <link href="../1_Asset/css/mdb.min.css" rel="stylesheet">
+    
 
     <!-- Your custom styles (optional) -->
     <link href="../1_Asset/css/style.css" rel="stylesheet">
 
+    <link rel="stylesheet" type="text/css" href="../1_Asset/css/eventStyle.css" media="screen" />
 </head>
 
 <body>
-
+<div>
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
         <div class="container">
-            <a class="navbar-brand" href="../index.html"><img id="banner-logo" src="../1_Asset/img/cssa_logo.png" alt="SFU CSSA">中国学生学者联合会</a>
+            <a class="navbar-brand" href="index.html"><img id="banner-logo" src="../1_Asset/img/cssa_logo.png" alt="SFU CSSA">中国学生学者联合会</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="../index.html">主页</a>
+                        <a class="nav-link" href="index.html">主页</a>
                     </li>
                     <li class="nav-item btn-group">
                         <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">新生指南</a>
                         <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="../新生指南/校园简介.html">校园简介</a>
-                            <a class="dropdown-item" href="../新生指南/新生手册.html">新生手册</a>
-                            <a class="dropdown-item" href="../新生指南/会员福利.html">会员福利</a>
+                            <a class="dropdown-item" href="../FreshmenGuide/CampusIntro.html">校园简介</a>
+                            <a class="dropdown-item" href="../FreshmenGuide/FreshmenManual.html">新生手册</a>
+                            <a class="dropdown-item" href="../FreshmenGuide/MemberBenefits.html">会员福利</a>
                         </div>
                     </li>
                     <li class="nav-item btn-group">
                         <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >活动</a>
                         <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="社团活动.html">社团活动</a>
-                            <a class="dropdown-item" href="义工活动.html">义工活动</a>
+                            <a class="dropdown-item" href="../Event/ClubEvent.html">社团活动</a>
+                            <a class="dropdown-item" href="../Event/VolunteerEvent.html">义工活动</a>
                             <!-- <a class="dropdown-item" href="#">Something else here</a> -->
                         </div>
                     </li>
                     <li class="nav-item btn-group">
                         <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">关于我们</a>
                         <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="../关于我们/社团简介.html">社团简介</a>
-                            <a class="dropdown-item" href="../关于我们/部门简介.html">部门简介</a>
-                            <a class="dropdown-item" href="../关于我们/合作商家/html">合作商家</a>
+                            <a class="dropdown-item" href="../AboutUs/ClubIntro.html">社团简介</a>
+                            <a class="dropdown-item" href="../AboutUs/DepartmentIntro.html">部门简介</a>
+                            <a class="dropdown-item" href="../AboutUs/Sponsor.html">合作伙伴</a>
                         </div>
                     </li>
                 </ul>
@@ -81,131 +82,236 @@
             </div>
         </div>
     </nav>
-    <!--/.Navbar-->
+        <!--/.Navbar-->
+
+</div>
+
+    
 
 
-    <!--intro carousel-->
-    <div id="carousel-example-3" class="carousel slide carousel-fade white-text" data-ride="carousel" data-interval="false">
-        <!--Indicators-->
-        <ol class="carousel-indicators">
-            <li data-target="#carousel-example-3" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-example-3" data-slide-to="1"></li>
-            <li data-target="#carousel-example-3" data-slide-to="2"></li>
-        </ol>
-        <!--/.Indicators-->
-
-        <!--Slides-->
-        <div class="carousel-inner" role="listbox">
-            <!-- First slide -->
-            <div class="carousel-item active view hm-black-light" >
-                 <img src="../1_Asset/img/Event/1.png" alt="First slide" class="img-fluid">
-                <!-- Caption -->
-                <div class="full-bg-img flex-center white-text">
-                    <ul class="animated fadeIn col-md-12">
-                        <li>
-                            <h1 class="h1-responsive">写点啥</h1>
-                        </li>
-                        <li>
-                            <p>母鸡</p>
-                        </li>
-                   <!--      <li>
-                            <a target="_blank" href="https://mdbootstrap.com/getting-started/" class="btn btn-info btn-lg" rel="nofollow">See more!</a>
-                        </li> -->
-                    </ul>
-                </div>
-                <!-- /.Caption -->
+    <div id="wrapper" >
+        <div class="fullwidthbanner-container">
+            <div class="fullwidthbanner">
+                <ul>
+                    <li data-transition="3dcurtain-horizontal" data-slotamount="15" data-masterspeed="300" >                        
+                        <img src="../1_Asset/img/Event/slides/slide3.jpg" alt="" id="image1"/>
+                        <p class="detailInfo">这个没有用data-link</p>
+                    </li>
+                    <li data-transition="3dcurtain-vertical" data-slotamount="15" data-masterspeed="300" data-link="#">
+                        <img src="../1_Asset/img/Event/slides/slide5.jpg" alt="" />
+                    </li>
+                    <li data-transition="papercut" data-slotamount="15" data-masterspeed="300" data-link="#">
+                        <img src="../1_Asset/img/Event/slides/slide2.jpg" alt="" />
+                    </li>
+                    <li data-transition="turnoff" data-slotamount="15" data-masterspeed="300" data-link="#">
+                        <img src="../1_Asset/img/Event/slides/slide1.jpg" alt="" />
+                    </li>	
+                    <li data-transition="flyin" data-slotamount="15" data-masterspeed="300" data-link="#">
+                        <img src="../1_Asset/img/Event/slides/slide6.jpg" alt="" />	 
+                    </li>					
+                </ul>
             </div>
-            <!--/.First slide-->
-
-            <!-- Second slide -->
-            <div class="carousel-item view hm-black-light" >
-                 <img src="../1_Asset/img/Event/2.png" alt="Second slide" class="img-fluid">
-                <!-- Caption -->
-                <div class="full-bg-img flex-center white-text">
-                    <ul class="animated fadeIn col-md-12">
-                        <li>
-                            <h1 class="h1-responsive">在写点啥 </h1>
-                        </li>
-                        <li>
-                            <p>又母鸡</p>
-                        </li>
-                        <!-- <li>
-                            <a target="_blank" href="https://mdbootstrap.com/bootstrap-tutorial/" class="btn btn-info btn-lg" rel="nofollow">Read more</a>
-                        </li> -->
-                    </ul>
-                </div>
-                <!-- /.Caption -->
-            </div>
-            <!--/.Second slide -->
-
-            <!-- Third slide -->
-            <div class="carousel-item view hm-black-light" style="background-image: url(../1_Asset/img/Event/2.png); background-repeat: no-repeat; background-size: cover;">
-
-                <!-- Caption -->
-                <div class="full-bg-img flex-center white-text">
-                    <ul class="animated fadeIn col-md-12">
-                        <li>
-                            <h1 class="h1-responsive">还要写点啥</h1>
-                        </li>
-                        <li>
-                            <p>母鸡</p>
-                        </li>
-                        <!-- <li>
-                            <a target="_blank" href="https://mdbootstrap.com/forums/forum/support/" class="btn btn-default btn-lg" rel="nofollow">Read more</a>
-                        </li> -->
-                    </ul>
-                </div>
-                <!-- /.Caption -->
-            </div>
-            <!--/.Third slide-->
         </div>
-        <!--/.Slides-->
-
-        <!--Controls-->
-        <a class="carousel-control-prev" href="#carousel-example-3" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carousel-example-3" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-        <!--/.Controls-->
     </div>
-    <!--/.Carousel Wrapper-->
 
 
+    <div class="home-main-event-wrapper hm-black-light ">
+        <div>
+            <div class=" home-main-event full-bg-img flex-center">
+                <section class="container">
+                    <div class="divider-new pt-5">
+                        <h2 class="h2-responsive wow fadeIn" >历往活动</h2>
+                    </div>
+    
+                    <section id="events">
+                        <div class="row pt-3">
+                            <!--First columnn-->
+                            <div class="col-lg-3 mb-r eventCursor" id="event1">
+                                <!--Event-1, Card-->
+                                <div class="card wow fadeIn" >
+                                    <!--Card image-->
+                                    <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20(25).jpg" alt="Card image cap">
+                                    <!--Card content-->
+                                    <div class="card-body">
+                                        <!--Title-->
+                                        <h4 class="event-title card-title text-center">360 Advertising</h4>
+                                        <hr>
+                                        <!--Text-->
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                                <!--/.Card-->
+                            </div>
+                            <!--First columnn-->
+    
+                            <!--Second columnn-->
+                            <div class="col-lg-3 mb-r eventCursor" id="">
+                                <!--Card-->
+                                <div class="card wow fadeIn">
+                                    <!--Card image-->
+                                    <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20(14).jpg" alt="Card image cap">
+                                    <!--Card content-->
+                                    <div class="card-body">
+                                        <!--Title-->
+                                        <h4 class="event-title card-title text-center">Top-class Team</h4>
+                                        <hr>
+                                        <!--Text-->
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                                <!--/.Card-->
+                            </div>
+                            <!--Second columnn-->
+    
+                            <!--Third columnn-->
+                            <div class="col-lg-3 mb-r eventCursor" id="">
+                                <!--Card-->
+                                <div class="card wow fadeIn">
+    
+                                    <!--Card image-->
+                                    <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20(21).jpg" alt="Card image cap">
+    
+                                    <!--Card content-->
+                                    <div class="card-body">
+                                        <!--Title-->
+                                        <h4 class="event-title card-title text-center">Top-class Team</h4>
+                                        <hr>
+                                        <!--Text-->
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+    
+                                </div>
+                                <!--/.Card-->
+                            </div>
+                            <!--Third columnn-->
+    
+                            <!--First columnn-->
+                            <div class="col-lg-3 mb-r eventCursor" id="">
+                                <!--Card-->
+                                <div class="event-title card wow fadeIn">
+    
+                                    <!--Card image-->
+                                    <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20(37).jpg" alt="Card image cap">
+    
+                                    <!--Card content-->
+                                    <div class="card-body">
+                                        <!--Title-->
+                                        <h4 class="card-title text-center">24/7 Support</h4>
+                                        <hr>
+                                        <!--Text-->
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+    
+                                </div>
+                                <!--/.Card-->
+                            </div>
+                            <!--First columnn-->
+                        </div>
+                    </section>
+                </section>
+            </div>
+        </div>
+        <div class=" full-bg-img flex-center more">
+            <button type="button" class="btn button" id="readMore">阅读更多</button>
+        </div>
+        <div class=" home-main-event full-bg-img flex-center hideDiv" id="hideRow1">
+            <section class="container" >
+                <div class="row pt-3">
+                    <div class="col-lg-3 mb-r eventCursor" id="">
+                        <div class="card wow fadeIn" >
+                            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20(25).jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="event-title card-title text-center">360 Advertising</h4>
+                                <hr>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-r eventCursor" id="">
+                        <div class="card wow fadeIn">
+                            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20(14).jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="event-title card-title text-center">Top-class Team</h4>
+                                <hr>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-r eventCursor" id="">
+                        <div class="card wow fadeIn">
+                            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20(21).jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="event-title card-title text-center">Top-class Team</h4>
+                                <hr>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-r eventCursor" id="">
+                        <div class="event-title card wow fadeIn">
+                            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20(37).jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-center">24/7 Support</h4>
+                                <hr>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        <div class=" home-main-event full-bg-img flex-center hideDiv" id="hideRow2">
+            <section class="container" >
+                <div class="row pt-3">
+                    <div class="col-lg-3 mb-r">
+                        <div class="card wow fadeIn eventCursor" id="">
+                            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20(25).jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="event-title card-title text-center">360 Advertising</h4>
+                                <hr>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-r">
+                        <div class="card wow fadeIn eventCursor" id="">
+                            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20(14).jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="event-title card-title text-center">Top-class Team</h4>
+                                <hr>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-r eventCursor" id="">
+                        <div class="card wow fadeIn">
+                            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20(21).jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="event-title card-title text-center">Top-class Team</h4>
+                                <hr>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-r eventCursor" id="">
+                        <div class="event-title card wow fadeIn">
+                            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20(37).jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-center">24/7 Support</h4>
+                                <hr>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="full-bg-img flex-center more" >
+            <button type="button" class="btn button hideDiv" id="hideButton">收起</button>
+        </div>
+    </div>
 
 
 
@@ -221,7 +327,7 @@
         <div class="container mt-5 mb-5">
             <div class="row">
                 <div class="col-sm-3">
-                    <h3><img src="../img/cssa_logo.png" alt="cssa" class="d-inline-block pb-3 pr-3" id="footer-logo"> CSSA</h3>
+                    <h3><img src="../1_Asset/img/cssa_logo.png" alt="cssa" class="d-inline-block pb-3 pr-3" id="footer-logo"> CSSA</h3>
                     <address>8888 University Dr, Burnaby, BC V5A 1S6 CANADA</address>
                 </div>
                 <div class="col-sm-3 pt-3">
@@ -247,19 +353,21 @@
                 <div class="col-sm-3 pt-3">
                     <h4>二维码关注</h4>
                     <hr>
-                    <img src="../img/cssa_logo.png" alt="cssa" class="d-inline-block pr-3">
-                    <img src="../img/cssa_logo.png" alt="cssa" class="d-inline-block">
+                    <img src="../1_Asset/img/cssa_logo.png" alt="cssa" class="d-inline-block pr-3">
+                    <img src="../1_Asset/img/cssa_logo.png" alt="cssa" class="d-inline-block">
                 </div>
             </div>
         </div>
 
 
-        <div class="copyright hm-black-light">
+        <div class="copyright row hm-black-light">
+            <hr>
             <div class=" full-bg-img col">
                 <p class="text-center pt-2">© 2017, SFU CSSA. All Rights Reserved.</p>
             </div>
         </div>
     </footer>
+    
     <!--/.Footer-->
 
 
@@ -276,9 +384,18 @@
 
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="../1_Asset/js/mdb.min.js"></script>
+    <script src="http://www.jq22.com/jquery/1.8.3/jquery.min.js"></script>
+
+    <script type="text/javascript" src="../1_Asset/js/jquery.banner.revolution.min.js"></script>
+
+    <script type="text/javascript" src="../1_Asset/js/banner.js"></script>
+
+
+    
+
 
     <script>
-        new WOW().init();
+        new WOW().init();  
     </script>
 
 </body>

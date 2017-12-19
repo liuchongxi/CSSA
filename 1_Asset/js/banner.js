@@ -26,7 +26,7 @@ var api;
 jQuery(document).ready(function() {
 	api =  jQuery('.fullwidthbanner').revolution(
 		{
-			delay:4000,
+			delay:7000,
 			startheight:450,
 			startwidth:1120,
 
@@ -54,3 +54,22 @@ jQuery(document).ready(function() {
 		});
   
 });
+
+document.getElementById("image1").onclick = function (){
+	window.location="http://google.com";
+};
+document.getElementById("readMore").onclick = function(){
+	document.getElementById("hideRow1").style.display = "block";
+	document.getElementById("hideRow2").style.display = "block";
+	document.getElementById("hideButton").style.display = "block";
+	document.getElementById('readMore').style.display="none"
+};
+document.getElementById("hideButton").onclick = function(){
+	document.getElementById("hideRow1").style.display = "none";
+	document.getElementById("hideRow2").style.display = "none";
+	document.getElementById("hideButton").style.display = "none";
+	document.getElementById('readMore').style.display="block"
+}
+document.getElementById("event1").onclick = function(){
+	location.href = "../Event/photoAlbum.html"
+}

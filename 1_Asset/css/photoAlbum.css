@@ -1,0 +1,32 @@
+.imageLoad{
+    margin-top: 20px;
+    width: 100% !important;
+    max-width: 1110px; 
+}
+.m-p-g__fullscreen-img{
+    margin-top: 98px;
+    text-align: center;
+    overflow: hidden;
+    width: 100% !important;
+    height: auto;
+    max-width: 1110px;
+}
+.m-p-g__btn{
+    margin-top:98px;
+}
+
+.htmleaf-container{
+    margin-top: 98px;
+    text-align: center;
+    overflow: hidden;
+}
+.navbar {
+    background-color: transparent;
+    background:rgba(0, 0, 0, 1);
+    border-radius: 0; 
+}
+.top-nav-collapse {
+    /*下滑时的banner*/
+    background-color: black;
+    background:rgba(0, 0, 0, 0.4);
+}	

@@ -5,7 +5,7 @@ body {
 	background:#fff;
 	margin:0;
 	padding:0;
-	color:#686868;
+	/* color:#686868; */
 }
 
 #wrapper {
@@ -41,6 +41,7 @@ a:hover {
 	padding:0;
 	max-height:100% !important;
     overflow:hidden;
+    cursor: pointer;
 }
 
 .fullwidthbanner-container .fullwidthabnner	{
@@ -289,4 +290,51 @@ a:hover {
     border-radius: 3px;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
+}
+
+#testP{
+    position: absolute; 
+    margin: auto; 
+}
+a{
+    color: red;
+}
+.navbar {
+    background-color: transparent;
+    background:rgba(0, 0, 0, 1);
+    border-radius: 0; 
+}
+.top-nav-collapse {
+    /*下滑时的banner*/
+    background-color: black;
+    background:rgba(0, 0, 0, 0.4);
+}
+.detailInfo{
+    width: 100%;
+    margin-top: 50%;
+    margin-left: 50%;
+    padding-left: 50%;
+    transform: translate(-50%, -50%)
+}
+.home-main-event{
+    padding-bottom: 0em;
+}
+
+.button{
+    background-color: rgba(184, 30, 30, 0.973);
+    font-size: 130%;
+    color: black;
+    margin: auto;
+}
+.more{
+    padding-bottom: 20px;
+}
+.hideDiv{
+    display: none;
+}
+.eventCursor{
+    cursor: pointer;
+}
+footer.home-footer {
+    margin-top: -20px;
 }
